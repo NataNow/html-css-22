@@ -1,0 +1,61 @@
+:root{
+    --primary-text-color: rgba(33, 33, 33, 1);
+    --title-text-color: rgba(33, 33, 33, 1);
+    --accent-text-color: #2196F3 ;
+    --primary-br-color:  #FFFFFF;
+    --title-list-text-color: rgba(117, 117, 117, 1);
+
+}
+
+body {
+    background-color: #FFFFFF;
+    color: rgba(33, 33, 33, 1);
+   }
+
+   /* Hero */
+   .hero-title {color: var(--primary-br-color);}
+
+     /* прибрала комерацію списку */
+   ul {list-style: none;}
+
+.logo {color: var(--primary-text-color);
+}
+.logo-link{color:  var(--accent-text-color);}
+.accent{color: var(--accent-text-color);}
+
+/* Kontakt */
+.kontakt-nav {color: var(--primary-text-color);}
+.kontakt-link {color: var(--accent-text-color);}
+
+/* Site-nav */
+
+.site-nav .link {color:var(--primary-text-color);}
+
+/* Section */
+
+.section-title{color: var(--primary-text-color);}
+
+/* Feature */
+
+.feature-list .title {color: var(--primary-text-color);}
+
+.title-list {color: var(--title-list-text-color);}
+
+/* Button */
+.button { color: var(--primary-br-color);}
+
+.hero-button {color: #FFFFFF;
+background-color: var(--accent-text-color);}
+
+/* Footer*/
+.footer {color: var(--primary-text-color);}
+.footer-title {color: var(--accent-text-color);}
+.title-list {color: rgba(255, 255, 255, 0.6);} 
+
+/* основний колір тексту rgba(33, 33, 33, 1) */
+/* другорядний колір тексту rgba(117, 117, 117, 1) */
+/* блакитний акцент #2196F3 */
+/* білий акцент #FFFFFF */
+/*  чорний акцент rgba(0, 0, 0, 1) */
+/* фон кнопки rgba(33, 150, 243, 1) */
+/* адреса в футері rgba(255, 255, 255, 0.6)*/
